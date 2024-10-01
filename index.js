@@ -1,11 +1,11 @@
-const apiKey = '9bbbd14d97f2095956530386dd878dfc';
+const apiKey = '23c209edfc86a59f6f0dd5c93c7535d1';
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 const cityCoordinates = {
-    "London": { lat: 51.5074, lon: -0.1278 },
-    "New York": { lat: 40.7128, lon: -74.0060 },
+    "Bangkok": { lat: 13.7509, lon: 100.5431 },
+    "Berlin": { lat: 52.5118, lon: 13.4082 },
     "Tokyo": { lat: 35.6762, lon: 139.6503 },
     "Sydney": { lat: -33.8688, lon: 151.2093 },
-    "Paris": { lat: 48.8566, lon: 2.3522 }
+    "New York": { lat: 40.7112, lon: -74.0373 }
 };
 
 async function getWeather() {
